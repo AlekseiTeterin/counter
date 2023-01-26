@@ -23,12 +23,6 @@ body {
     margin-bottom: 20px;
   }
 
-.App h1 .plus {
-    color: #2a9d8f;
-  }
-.App h1 .minus {
-    color: #e63946;
-  }
 
 .App h2 {
     font-size: 2rem;
@@ -50,17 +44,14 @@ body {
   }
 
 .App button.minus {
-    background-color: #e63946;
+    background-color: #efce11;
     color: #fff;
-    box-shadow: 0 4px 0 darken(#e63946, 10%);
-    border: 1px solid darken(#e63946, 15%);
+    
   }
 
 .App button.plus {
-    background-color: #2a9d8f;
+    background-color: #20d03d;;
     color: #fff;
-    box-shadow: 0 4px 0 darken(#2a9d8f, 10%);
-    border: 1px solid darken(#2a9d8f, 15%);
   }
 
 .App button:hover {
